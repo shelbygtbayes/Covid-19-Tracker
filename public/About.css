@@ -1,0 +1,42 @@
+body{
+    background-color: whitesmoke;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0;
+   /* background-color: whitesmoke;
+    */align-items: center;
+}
+.video{
+    width: 800px;
+    height: 400px
+}
+.heading{
+    text-align: center;
+}
+header{
+    padding: 1em;
+    background: #1a2c5b;;
+    margin-bottom: 1em;
+    margin-left: 0;
+    padding-bottom: 3.5em;
+    text-align: center;
+    clip-path: polygon(50% 0% , 100% 0 , 100% 50% , 50% 100% , 0 50% ,0 0);
+}
+.para{
+    color: black; /*Text color*/
+    font-family: 'Poppins';
+    padding: 1% 10%;
+    text-align: justify;
+    font-size: normal;
+}
+@media screen and (max-width:768px){
+    header{
+        background: #1a2c5b;;
+        text-align: center;
+        clip-path: polygon(50% 0% , 100% 0 , 100% 100% , 50% 100% , 0 100% ,0 0);
+    }
+}
+
+                

@@ -1,0 +1,33 @@
+body{
+    margin: 1% 1%;
+    background-color: whitesmoke;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: 1% 1%;
+   /* background-color: whitesmoke;
+    */align-items: center;
+}
+.video{
+    width: 800px;
+    height: 400px
+}
+.heading{
+    text-align: center;
+}
+
+.Measures{
+    list-style: circle;
+    color: black; /*Text color*/
+    font-family: 'Poppins';
+    padding: 1% 10%;
+    text-align: justify;
+    font-size: normal;
+}
+.P1{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+                

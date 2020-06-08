@@ -1,0 +1,40 @@
+
+.card {
+    margin: 4% 4% !important;
+}
+.confirmed {
+    border-bottom: 10px solid rgba(255, 0, 221, 0.342);
+  
+}
+.active {
+    
+    border-bottom: 10px solid rgba(0 , 0 , 255 , 0.5);
+}
+.recovered {
+    border-bottom: 10px solid rgba(0 , 255 , 0 , 0.5);
+}
+.deaths {
+    border-bottom: 10px solid rgba(255 , 0 , 0 , 0.5);
+}
+@media screen and (max-width:768px){
+    .container{
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+    .active {
+        border-bottom: 10px solid rgba(0 , 0 , 255 , 0.5);  
+    }
+    .recovered {
+        border-bottom: 10px solid rgba(0 , 255 , 0 , 0.5);
+    }
+    .deaths {
+        border-bottom: 10px solid rgba(255 , 0 , 0 , 0.5);
+    }
+    
+}
+/*
+margin: top-bottom left-right
+rgba( red, green , blue , alpha )
+alpha --> tone
+*/
