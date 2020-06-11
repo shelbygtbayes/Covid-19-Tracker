@@ -5,7 +5,7 @@ import styles from './Chart.module.css';
 const GlobalChart = ({data , country}) => {
     const {confirmed , recovered , deaths} = data;
     const [dailyData , setDailyData] = useState([]);
-    //      Member      setter Method
+    //      Member      setter Method 
     useEffect(()=>{
         // Effect Callback function here
         // since useEffect hook can't make callback to async function
