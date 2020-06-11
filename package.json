@@ -43,16 +43,11 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shelbygtbayes/Covid-19-Tracker.git"
+  "devDependencies": {
+    "gh-pages": "^3.0.0"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shelbygtbayes/Covid-19-Tracker/issues"
-  },
-  "homepage": "https://github.com/shelbygtbayes/Covid-19-Tracker#readme"
+  "license": "ISC"
+ 
 }
