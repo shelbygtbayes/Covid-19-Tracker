@@ -1,6 +1,7 @@
 .container{
     display: flex;
     align-items: center;
+    background-color: ghostwhite;
     justify-content: center;
     flex-direction: column; /* To put in vertical order*/
 }

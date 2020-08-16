@@ -20,7 +20,12 @@ const Globalcards = ({data : {confirmed , recovered , deaths , lastUpdate}}) => 
         );
     }
 
-    const active = confirmed.value - recovered.value - deaths.value;
+    var active = confirmed.value - recovered.value - deaths.value;
+    if(confirmed.value === 0) 
+    {
+        active = 0;
+        confirmed.value = recovered.value + deaths.value;
+    }
     const recovery_rate = (recovered.value / confirmed.value)*100;
     const mortality_rate = (deaths.value / confirmed.value)*100;
     return (
